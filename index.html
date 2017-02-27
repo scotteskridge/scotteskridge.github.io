@@ -1,105 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-<meta charset="utf-8">
-      <title>My Path to Becomeing a Software Engineer</title>
-      <h1>My Path to Becomeing a Software Engineer</h1>
-      <meta name="description" content="This is a blog by Scott Eskridge as he tracks his leanring course to becomeing a software engineer">
-      <link rel="stylesheet" href="my_css_file.css">
-      <script src="my_javascript_library.js"></script>
-      <script src="another_javascript_file.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>My Path to Becomeing a Software Engineer</title>
+  <meta name="Scott's Blog" content="Blog By Scott Eskridge">
+  <link rel="stylesheet" href="styles.css">
+  <script src="my_javascript_library.js"></script>
+  <script src="another_javascript_file.js"></script>
+</head>
 
-  <title>
-  </title>
+<title>
+
+</title>
 
 
 <body>
-
-<div id="wrapper">
-           <div id="header">
-               <h1>Logo</h1>
-               <ul>
-                   <li>Home</li>
-                   <li>Contact Us</li>
-                   <li>Information</li>
-               </ul>
-           </div>
-           <div id="main-content">
-               <h2>Article One</h2>
-               <p>Today was my first day at Coding Dojo. For many reasons, I’ve decided to leave the mortgage industry and cross train as a software developer. As I’m mostly writing this blog as a test of my website building skills I’m going to leave this very brief while I work on understanding the HTML that makes this blog tick..</p>
-               <h2>Article Two</h2>
-               <p>At somepoint I should figure out if there is a spell checker for Atom,
-                 hmm how would that even work? Perhaps the best thing would be to copy blocks of text from word?
-                do i need to make a branch to commit changes? Ok that commit appeared to work I just had to acctually
-              comment on the commit so lets try this again</p>
-           </div>
-           <div id="side-menu">
-
-               <ul>
-                   <li>Page 1</li>
-                   <li>Page 2</li>
-                   <li>Page 3</li>
-                   <li>Page 4</li>
-                   <li>Page 5</li>
-               </ul>
-           </div>
-           <div id="footer">
-               <a href="/home">HOME</a>
-               <a href="/contact">CONTACT US</a>
-               <a href="/info">IFORMATION</a>
-           </div>
-      </div>
-
-      <h1>
-        My Registration Form
-      </h1>
-        <form>
-
-          <label>
-              First Name:<input type="text" name="firstname">
-          </label>
-          <p></p>
-          <label>
-              Last Name:<input type="text" name="lastname">
-          </label>
-          <p></p>
-          <label>
-              Email:<input type="text" name="email">
-          </label>
-          <p></p>
-          <label>
-              Password:<input type="password" name="password">
-          </label>
-          <p></p>
-          <label>
-              PW Confirm:<input type="password" name="pwconfirm">
-          </label>
-          <p></p>
-          <label>
-              Birthdate:<input type="date" name="birthdate">
-          </label>
-            <p></p>
-          <label>
-             Male<input type="radio" name="gender" value="male">
-          </label>
-          <label>
-             Female<input type="radio" name="gender" value="female">
-          </label>
-          <label>
-             Other<input type="radio" name="gender" value="other">
-          </label>
-          <p></p>
-          <textarea name="description"></textarea>
-          <p></p>
+  <!-- <ul class="fly-in-text hidden">
+      <li>W</li>
+      <li>E</li>
+      <li>L</li>
+      <li>C</li>
+      <li>O</li>
+      <li>M</li>
+      <li>E</li>
+  </ul> -->
 
 
-          <select name="Favorite Language">
-              <option value="JavaScript">JavaScript</option>
-              <option value="Python">Python</option>
-          </select>
-            <p></p>
-          <input type="submit" value="Submit">
-        </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript">
+
+      $(function() {
+
+          setTimeout(function() {
+              $('.fly-in-text').removeClass('hidden');
+          }, 500);
+          $(".fly-in-text").click(function(){
+              $(".fly-in-text").fadeOut(1500, "swing");
+});
+
+      })();
+
+  </script>
+
+  <div  class="vignette wrapper">
+    <ul class="fly-in-text hidden">
+        <li>W</li>
+        <li>E</li>
+        <li>L</li>
+        <li>C</li>
+        <li>O</li>
+        <li>M</li>
+        <li>E</li>
+    </ul>
+    <div id="header" class="boxshadow ">
+      <p>The Header of My Blog</p>
+
+    </div>
+    <div  class="boxshadow body">
+        <p>Coming Soon!</p>
+    </div>
+    <div  class="boxshadow body">
+        <p>body</p>
+    </div>
+    <div  class="boxshadow body">
+        <p>body</p>
+    </div>
+    <div  class="boxshadow body">
+        <p>body</p>
+    </div>
+    <div id="footer" class="boxshadow">
+        <p>footer</p>
+    </div>
+
+  </div>
+
+
+
+
 </body>
 </html>
