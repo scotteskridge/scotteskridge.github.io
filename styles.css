@@ -138,3 +138,13 @@ div, body{
   align-items: center;
 
 }
+
+#sunday02272017{
+  flex-direction: column;
+}
+#sunday02272017 *{
+  margin: 15px;
+}
+#sunday02272017 img{
+  width: 20%;
+}
