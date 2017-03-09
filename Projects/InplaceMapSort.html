@@ -1,0 +1,35 @@
+<script>
+function mapSort(arr){
+var temp;
+var i = 0;
+var dup = 0;
+  while( i<arr.length){
+
+    temp = arr[arr[i+dup]];
+    arr[arr[i+dup]] = arr[i];
+
+    arr[i] = temp;
+
+    console.log(myArray);
+      if(arr[i] == i+dup){
+        i++
+        if(arr[arr[i]] == arr[i]){
+          dup++;
+          // temp = arr[arr[i]];
+          // arr[arr[i]] = arr[i+dup];
+          // arr[i] = temp;
+        }
+      }
+  // setTimeout(function(){debugger;}, 3000);
+  }
+
+
+
+}
+var myArray = [2,3,5,1,0,4,4,4];
+
+mapSort(myArray);
+console.log(myArray);
+
+
+</script>
